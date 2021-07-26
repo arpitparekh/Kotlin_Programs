@@ -13,5 +13,7 @@ fun main() {
                 print("character is not alphabet")
             }
         }
+    }else {
+        println("enter the character")
     }
 }
