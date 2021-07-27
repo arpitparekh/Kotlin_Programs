@@ -19,10 +19,15 @@ fun checkPrime(number:Int):Boolean{
 fun main() {
     val scanner=Scanner(System.`in`)
     val number=scanner.nextInt()
-    for(i in 2..number/2){
-       if(checkPrime(i) && checkPrime(i-1)){
-           print("$number = $i + " + (number-i) + "\n")
-
-       }
+//    for(i in 2..number/2){
+//       if(checkPrime(i) && checkPrime(i-1)){
+//           print("$number = $i + " + (number-i) + "\n")
+//
+//       }
+//    }
+    if(checkPrime(number)){
+        println("Number is Prime")
+    }else{
+        println("Number is not prime")
     }
 }
