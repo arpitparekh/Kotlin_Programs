@@ -10,7 +10,7 @@ fun main() {
     val n2=scanner.nextInt()
 
 
-    for(i in n1+1..n2 ){       // this is main checkpoint
+    for(i in n1+1..n2 ){       // this is assignment.functions.main checkpoint
         var x=i
         var digit=0
         while (x>0){
